@@ -1,0 +1,18 @@
+# Compilação Maven
+target/
+*.class
+*.jar
+*.war
+
+# Banco de dados SQLite gerado em tempo de execução
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Arquivos de IDE e Sistema Operacional
+.nb-gradle/
+nbactions.xml
+nb-configuration.xml
+.DS_Store
+Thumbs.db
